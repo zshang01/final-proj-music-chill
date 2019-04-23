@@ -1,0 +1,43 @@
+body {
+  font-family: 'Lora', serif !important;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Merriweather', serif !important;
+  margin:0;
+}
+
+#navbar {
+  padding: .1rem .1rem;
+  height: 15%;
+  width:100%;
+  min-width: 300px;
+  background: #2AC926;
+}
+
+
+
+#app {
+	background: rgb(43, 179, 79);
+}
+
+header {
+  background: #24BFA5;
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+#dropdown-but {	
+	background: #26C980 !important;
+	/*#5DBF24	2AC926  2BB34F 26C980 24BFA5*/
+}
+
+#submit-but-share {
+	background: #2BB34F
+}
+
+
+#submit-search{
+	background: #5DBF24
+}
