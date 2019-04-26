@@ -47,7 +47,7 @@ $ meteor
 ## Links
 
 -   [Link](https://final-project-music-chill.herokuapp.com)
--   [Video](https://www.youtube.com/watch?v=Ppjuo5q_tng&t=2s)
+-   [Video](https://youtu.be/8BdJyNh_tPs)
 -   [Class](http://johnguerra.co/classes/webDevelopment_spring_2019)
 
 
