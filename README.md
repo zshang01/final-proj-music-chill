@@ -4,11 +4,18 @@ Music Web application for Users to discuss, comment with other Users about songs
 
 ## Objective
 
+Provides a platform to music lovers.
+
 Try to find common music interest between Users and let users communicate with each other.
 
 ## Preview
 
 ![image](./public/background.png)
+
+## Screenshots
+
+![image](./public/screen1.png)
+![image](./public/screen2.png)
 
 ## Tech
 
@@ -39,7 +46,7 @@ $ meteor
 
 ## Links
 
--   [Link](https://test-music-app.herokuapp.com/)
+-   [Link](https://final-project-music-chill.herokuapp.com)
 -   [Video](https://www.youtube.com/watch?v=Ppjuo5q_tng&t=2s)
 -   [Class](http://johnguerra.co/classes/webDevelopment_spring_2019)
 
@@ -47,7 +54,6 @@ $ meteor
 ## Authors
 
 -   Zhou Shang (https://my-web-page-project.herokuapp.com/index.html)
--   Megan
 
 
 ## License
