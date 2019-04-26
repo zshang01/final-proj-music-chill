@@ -1,8 +1,8 @@
-#User Report
+# User Report
 
-##Verion1
+## Verion1
 
-Link: https://test-music-app.herokuapp.com/
+Verion Link: https://test-music-app.herokuapp.com/
 
 User1:
 -  Name initials: LJ
@@ -13,7 +13,7 @@ Occupation:
 Sex and Age:
 -  Female /27
 
-##Questions
+## Questions
 
 What is your first impression? 
 User: I think it is a website that is related to the music. I don’t really get the idea of the webpage. Maybe it is for people to discuss music.
@@ -49,8 +49,8 @@ How can we improve our website?
 User: You should put more instruction let the user know how to use the website and what service it provides.
 
 
-##Version2
-Link: https://final-project-music-chill.herokuapp.com/
+## Version2
+Verion Link: https://final-project-music-chill.herokuapp.com/
 
 User2:
 -  Name initials: WZ
