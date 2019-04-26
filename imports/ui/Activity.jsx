@@ -36,6 +36,10 @@ class Activity extends Component {
 	render(){
 		return(
 			<div>
+				<div style={{display: 'flex', justifyContent: 'center'}}>
+				<h1 >Last Five Activity</h1>
+				<br/>
+				</div>
 				{this.renderFive()}
 			</div>
 		)

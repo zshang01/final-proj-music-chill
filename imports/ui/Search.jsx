@@ -310,7 +310,7 @@ class Search extends Component {
 			            <div className="card">
 		            		<div class="comment-block">
 			                    <form action="">
-			                      <textarea className="" id="Text" cols="105" rows="3" placeholder="Add comment..."></textarea>
+			                      <textarea aria-label="Close" className="" id="Text" cols="105" rows="3" placeholder="Add comment..."></textarea>
 			                    </form>
 		                  	</div>
 			            </div>

@@ -42,13 +42,13 @@ export default class ActivityCard extends Component {
 			<div className="card">
 				<Grid centered>
         		<div className="comment-block">
-                    
+                    	
                     
 
-	                    <h2>{this.state.name}</h2>
-	                    <h2>{this.state.popularity}</h2>
-	                    <h2>{this.state.year}</h2>
-	                    <img src={this.state.url} />
+	                    <h2>name: {this.state.name}</h2>
+	                    <h2>popularity: {this.state.popularity}</h2>
+	                    <h2>year:{this.state.year}</h2>
+	                    <img alt='url' src={this.state.url} />
                     
               	</div>
               	</Grid>

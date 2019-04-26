@@ -219,6 +219,7 @@ export default class Recommend extends Component {
     return (
       <div>
       			<div className="container" >
+      					<h1>Recommend Song For You</h1>
 		    			<div className="row">
 				    		<div className="col-md-6 col-md-offset-3">
         						<button type="submit" className="btn" onClick={this.Refresh.bind(this)}><i className="fa fa-share"></i> Refresh</button>

@@ -1,7 +1,3 @@
-body {
-  font-family: sans-serif;
-  margin:0;
-}
 
 h1 h2 h3 h4 h5 h6 {
   font-family: 'Josefin Sans', sans-serif !important;
@@ -13,33 +9,58 @@ h1 h2 h3 h4 h5 h6 {
   height: 15%;
   width:100%;
   min-width: 300px;
-  background: #2AC926;
+  background:  #2bb34f !important;
   font-family: 'Amatic SC', cursive !important;
 }
 
+#login-but{
+	background: #2bb34f;
+	font-family: 'Amatic SC', cursive !important;
+}
+
+#home-but{
+	color: #153033;
+	font-family: 'Amatic SC', cursive !important;
+}
+
+#diss-but{
+	color: #153033;
+	font-family: 'Amatic SC', cursive !important;
+}
+
+#about-but{
+	color: #153033;
+	font-family: 'Amatic SC', cursive !important;
+}
 
 
 #app {
-	background: rgb(43, 179, 79);
+	background: #2bb34f;
 }
 
 header {
   font-family: 'Josefin Sans', sans-serif !important;
-  background: #24BFA5;
+  background: #24BFA5 !important;
   padding: 20px 15px 15px 15px;
   position: relative;
 }
 
 #dropdown-but {	
-	background: #26C980 !important;
-	
+	background: #2AC926 !important;
+	color: #153033
 }
 
 #submit-but-share {
-	background: #2BB34F
+	background: #2BB34F !important
 }
 
 
 #submit-search{
-	background: #5DBF24
+	background: #5DBF24 !important
+}
+
+body {
+  font-family: #153033 sans-serif;
+  color: #153033;
+  margin:0;
 }

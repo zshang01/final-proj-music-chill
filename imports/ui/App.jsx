@@ -98,7 +98,7 @@ export default class App extends Component {
 	)
     return (
       <Router>
-      		<div id='app'>
+      		<div id='app' role='main'>
           	<NavBar sendData={this.getData} isLogIn={this.state.login}/>
 	          <Switch>
 	            <Route exact path="/" component={Homepage} />

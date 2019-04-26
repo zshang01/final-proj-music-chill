@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Meteor } from "meteor/meteor";
 import { withHistory, Link } from "react-router-dom";
-
+import "../../client/main.css";
 export class Login extends Component {
 
   constructor(props) {
@@ -22,7 +22,7 @@ export class Login extends Component {
 
   render() {
     return (
-      <a className="nav-link login" onClick={this.login}>Login</a>
+      <a className="nav-link login" id='login-but' onClick={this.login}>Login</a>
     );
   }
 }

@@ -61,7 +61,6 @@ class NavBar extends Component {
 
             <div
               className="collapse navbar-collapse"
-              id="navbarSupportedContent"
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
@@ -69,6 +68,7 @@ class NavBar extends Component {
                     className="nav-link"
                     activeClassName="active"
                     to="/"
+                    id='home-but'
                   >
                     Home
                   </NavLink>
@@ -78,6 +78,7 @@ class NavBar extends Component {
                     className="nav-link"
                     activeClassName="active"
                     to="/landing"
+                    id='diss-but'
                   >
                     Discussion
                   </NavLink>
@@ -88,6 +89,7 @@ class NavBar extends Component {
                     className="nav-link"
                     activeClassName="active"
                     to="/about"
+                    id='about-but'
                   >
                     About
                   </NavLink>
@@ -102,8 +104,8 @@ class NavBar extends Component {
                   ?
 
                   <span>
-                      <Dropdown role="menu">
-                      <DropdownButton title="Member privilage" id="dropdown-but">
+                      
+                      <DropdownButton title="Member privilage" id="dropdown-but" >
                       <LinkContainer to="/search">
                         <Dropdown.Item as="button" role="menuitem">
                           SearchBar
@@ -122,7 +124,7 @@ class NavBar extends Component {
                         </Dropdown.Item>
                       </LinkContainer>                  
                       </DropdownButton>
-                      </Dropdown>
+                      
                   <button type="submit" className="btn" onClick={this.logout.bind(this)}><i class="fa fa-share"></i> LogOut</button>
                   
                 </span>

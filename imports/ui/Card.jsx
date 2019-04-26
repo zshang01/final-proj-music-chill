@@ -35,15 +35,15 @@ class Card extends Component {
 			<div>
 				
 				<Grid centered>
-					<h1>{this.props.word}</h1>
+					<h1>Song name: {this.props.word}</h1>
 
-					<img src={this.props.src} />
+					<img alt='pic' src={this.props.src} />
 			    
 				    
 				    <br/>
-					<h4>Release Date: {this.props.release}</h4>
+					<h2>Release Date: {this.props.release}</h2>
 					<br/>
-					<h4>Popularity: {this.props.popularity}</h4>
+					<h2>Popularity: {this.props.popularity}</h2>
 					<br/>
 					{this.props.previewurl !== null ? <audio controls src={this.props.previewurl}></audio> : "preview not available"}
 			    

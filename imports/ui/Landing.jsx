@@ -28,7 +28,7 @@ class Landing extends Component {
 	   				<Grid.Row>
 	   				<Grid.Column width={4}>{c.name}</Grid.Column>                
 				    <Grid.Column width={4}>
-				      <Image src='/stars.png' width="20" height="20">
+				      <Image alt='stars' src='/stars.png' width="20" height="20">
 				      	
 				      </Image>
 				    </Grid.Column>
@@ -43,10 +43,11 @@ class Landing extends Component {
 						<br/>
 
 				        {c.comment.map( (d,i) => 
-				        	
-				        	<li key={i}>
+				        	<ul>
+				        	<li key={i} >
 				        		{d}
 				        	</li>
+				        	</ul>
 				        	
 				        )}
 			     	</Card.Text>
@@ -64,7 +65,7 @@ class Landing extends Component {
 	   				<Grid.Row>
 	   				<Grid.Column width={4}>{c.name}</Grid.Column>                
 				    <Grid.Column width={4}>
-				      <Image src='/stars.png' width="20" height="20">
+				      <Image alt='stars' src='/stars.png' width="20" height="20">
 				      	
 				      </Image>
 				    </Grid.Column>
@@ -79,10 +80,11 @@ class Landing extends Component {
 						<br/>
 
 				        {c.comment.map( (d,i) => 
-				        	
+				        	<ul>
 				        	<li key={i}>
 				        		{d}
 				        	</li>
+				        	</ul>
 				        	
 				        )}
 			     	</Card.Text>
@@ -101,7 +103,7 @@ class Landing extends Component {
 	   				<Grid.Row>
 	   				<Grid.Column width={4}>{c.name}</Grid.Column>                
 				    <Grid.Column width={4}>
-				      <Image src='/stars.png' width="20" height="20">
+				      <Image alt='stars' src='/stars.png' width="20" height="20">
 				      	
 				      </Image>
 				    </Grid.Column>
@@ -116,11 +118,11 @@ class Landing extends Component {
 						<br/>
 
 				        {c.comment.map( (d,i) => 
-				        	
+				        	<ul>
 				        	<li key={i}>
 				        		{d}
 				        	</li>
-				        	
+				        	</ul>
 				        )}
 			     	</Card.Text>
 				</Card>
@@ -139,7 +141,7 @@ class Landing extends Component {
 	   				<Grid.Row>
 	   				<Grid.Column width={4}>{c.name}</Grid.Column>                
 				    <Grid.Column width={4}>
-				      <Image src='/stars.png' width="20" height="20">
+				      <Image alt='stars' src='/stars.png' width="20" height="20">
 				      	
 				      </Image>
 				    </Grid.Column>
@@ -154,11 +156,11 @@ class Landing extends Component {
 						<br/>
 
 				        {c.comment.map( (d,i) => 
-				        	
+				        	<ul>
 				        	<li key={i}>
 				        		{d}
 				        	</li>
-				        	
+				        	</ul>
 				        )}
 			     	</Card.Text>
 				</Card>
@@ -187,10 +189,12 @@ class Landing extends Component {
 		
 	    return (
 	    	<div className="bg-light border rounded">
-
+			
 			<div className="container">
+		    	<h1>Latest Discussion</h1>
 		    	<div class="row">
 				    <div class="col-md-6 col-md-offset-3">
+
 						<button type="submit" className="btn" onClick={this.changeIncrement.bind(this)}><i className="fa fa-share"></i> From Lowest Rating To Highest</button>
 			    		<button type="submit" className="btn" onClick={this.changeDecrement.bind(this)}><i className="fa fa-share"></i> From Highest Rating To Lowest</button>
 				    </div>
