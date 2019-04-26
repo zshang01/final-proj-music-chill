@@ -1,10 +1,10 @@
 body {
-  font-family: 'Lora', serif !important;
+  font-family: sans-serif;
   margin:0;
 }
 
-h1 {
-  font-family: 'Merriweather', serif !important;
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Josefin Sans', sans-serif !important;
   margin:0;
 }
 
@@ -14,6 +14,7 @@ h1 {
   width:100%;
   min-width: 300px;
   background: #2AC926;
+  font-family: 'Amatic SC', cursive !important;
 }
 
 
@@ -23,6 +24,7 @@ h1 {
 }
 
 header {
+  font-family: 'Josefin Sans', sans-serif !important;
   background: #24BFA5;
   padding: 20px 15px 15px 15px;
   position: relative;
@@ -30,7 +32,7 @@ header {
 
 #dropdown-but {	
 	background: #26C980 !important;
-	/*#5DBF24	2AC926  2BB34F 26C980 24BFA5*/
+	
 }
 
 #submit-but-share {
