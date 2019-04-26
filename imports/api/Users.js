@@ -50,6 +50,18 @@ Meteor.methods({
 		)
 		let res = Users.find({ email: email }).fetch();
 		return res[0];
+	},
+	'user.exist': function(email){
+		console.log(email);
+		check(param.email, String);
+		const user = Users.find({ email: email }).fetch();
+		console.log(user)
+		console.log(user.length)
+		if(user.length > 0){
+			console.log("expected")
+			return true;
+		}
+		return false;
 	}
 })
 
